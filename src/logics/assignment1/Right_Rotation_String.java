@@ -1,4 +1,4 @@
-package logics;
+package logics.assignment1;
 
 public class Right_Rotation_String {
     public static void main(String[] args) {

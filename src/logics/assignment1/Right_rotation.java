@@ -1,4 +1,4 @@
-package logics;
+package logics.assignment1;
 
 import java.util.Arrays;
 

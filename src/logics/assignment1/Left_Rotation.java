@@ -1,6 +1,5 @@
-package logics;
+package logics.assignment1;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Left_Rotation {
