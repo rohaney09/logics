@@ -1,4 +1,4 @@
-package sample;
+package logics.simplePrograms;
 
 
 interface MyInterface1 {

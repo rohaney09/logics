@@ -1,3 +1,5 @@
+package logics.simplePrograms;
+
 interface samples1 {
     default void display() {
         System.out.println("sample1");

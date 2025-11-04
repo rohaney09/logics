@@ -1,4 +1,4 @@
-package sample;
+package logics.simplePrograms;
 
 interface sam1 {
     void display() ;

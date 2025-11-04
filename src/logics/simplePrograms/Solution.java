@@ -1,5 +1,4 @@
-package logics;
-import java.util.Scanner;
+package logics.simplePrograms;
 
 class   Solution {
     public static void main(String[] args) {

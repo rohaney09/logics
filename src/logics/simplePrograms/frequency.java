@@ -1,8 +1,4 @@
-package logics;
-
-import java.security.spec.RSAOtherPrimeInfo;
-import java.sql.SQLOutput;
-import java.util.Scanner;
+package logics.simplePrograms;
 
 import java.util.Scanner;
 

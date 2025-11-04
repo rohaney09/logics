@@ -1,4 +1,4 @@
-package sample;
+package logics.simplePrograms;
 
 public interface private_interface {
     default void show1(){

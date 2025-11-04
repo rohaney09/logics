@@ -1,4 +1,4 @@
-package logics;
+package logics.simplePrograms;
 
 public class vowelReplace {
     public static void main(String[] args) {

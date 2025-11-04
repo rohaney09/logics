@@ -1,4 +1,4 @@
-package sample;
+package logics.simplePrograms;
 
  class sampletest {
         private int a =10;
