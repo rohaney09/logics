@@ -13,8 +13,6 @@ class Employee {
         this.empName = empName;
         this.salary = salary;
     }
-
-
     public int getEmpId() {
         return empId;
     }
