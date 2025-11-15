@@ -6,7 +6,7 @@ public class consunent {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     String str = sc.nextLine();
-    String v = str.replaceAll("[aeiouAEIOU]", "");
-    System.out.println(v.length()-1);
+    String v = str.replaceAll("[^aeiouAEIOU]", "");
+    System.out.println(str.length()-v.length());
     }
 }

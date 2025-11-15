@@ -24,4 +24,4 @@ public class MatrixMultiply {
         }
     }
 }
-
+//kisi din code yhi reh jaega or mai push ho jaunga

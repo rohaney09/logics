@@ -31,7 +31,8 @@ public class ThirdLargest {
                 third = arr[i];
             }
         }
-
+        System.out.println(largest);
+        System.out.println(second);
         System.out.println("Third largest number is: " + third);
     }
 }

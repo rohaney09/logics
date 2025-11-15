@@ -7,9 +7,7 @@ public class subset {
             for(int j=i+1;j<=str.length();j++){
                 //System.out.print(str.charAt(j))   02
                 System.out.println(str.substring(i,j));
-
             }
-
         }
     }
 }

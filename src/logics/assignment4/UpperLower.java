@@ -20,10 +20,8 @@ public class UpperLower {
                 result += ch;
             }
         }
-
         System.out.println("Converted string: " + result);
-
     }
-
 }
+
 

@@ -18,7 +18,7 @@ public class BubbleSort {
         }
         for(int i = 0; i < len; i++){
             System.out.println(arr[i]);
-        }
+        } 
 
     }
 }

@@ -19,12 +19,12 @@ public class MinMaxChar {
             ch = str.charAt(i);
             arr[ch]++;
         }
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] >= 1) {
-
-                System.out.println((char) i + " " + arr[i]);
-            }
-        }
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] >= 1) {
+//
+//                System.out.println((char) i + " " + arr[i]);
+//            }
+//        }
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] == 0) continue;
                     if (arr[i] > large) {
@@ -34,8 +34,23 @@ public class MinMaxChar {
                         smallest = arr[i];
                     }
             }
-        System.out.println("large: "+large);
-        System.out.println("small: "+smallest);
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]==large){
+                System.out.println("larger char: ");
+                System.out.println((char)i+" "+large);
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i]==smallest){
+                System.out.println("smallest char: ");
+                System.out.println((char)i+" "+smallest);
+            }
+        }
+
+
+
+//        System.out.println("large: "+large);
+//        System.out.println("small: "+smallest);
     }
 }
 

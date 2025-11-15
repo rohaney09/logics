@@ -13,7 +13,7 @@ public class frequency {
             for(int i=0; i< str.length() ; i++)
             {
                 char ch  = str.charAt(i);
-                arr[ch]++;
+                arr[ch] = arr[ch] + 1;
             }
             System.out.println("frequency---------");
             for (int i = 0; i <arr.length ; i++) {

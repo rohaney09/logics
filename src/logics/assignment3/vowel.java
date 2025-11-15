@@ -7,7 +7,7 @@ public class vowel {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String v = str.replaceAll("[aeiouAEIOU]", "");
-        System.out.println(v.length()-1);
+        System.out.println(str.length()-v.length());
 
     }
 
