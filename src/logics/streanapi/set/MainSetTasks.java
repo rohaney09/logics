@@ -13,6 +13,7 @@ class Student {
     private int numberOfIncompleteCourses;
     private boolean onProbation;
 
+
     public Student(String name, String major, int age, int yearsOfEnrollment,
                    double gpa, int numberOfIncompleteCourses, boolean onProbation) {
         this.name = name;
@@ -42,6 +43,7 @@ class Student {
 // -------------------- MAIN CLASS --------------------
 public class MainSetTasks {
     public static void main(String[] args) {
+
 
         // -------- SAMPLE SET OF STUDENTS --------
         Set<Student> students = new HashSet<>(Arrays.asList(

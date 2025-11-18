@@ -15,6 +15,7 @@ class Customer {
     private int loyaltyScore;
     private int numberOfTransactions;
 
+
     public Customer(String id, String name, String country, int age,
                     int yearsOfMembership, double balance,
                     int loyaltyScore, int numberOfTransactions) {
@@ -53,6 +54,7 @@ public class MapTasks {
 
         // ---------- SAMPLE MAP OF CUSTOMER OBJECTS ----------
         Map<String, Customer> customers = new HashMap<>();
+
 
         customers.put("C1", new Customer("C1", "Rohan", "India", 25, 3, 4500, 3, 12));
         customers.put("C2", new Customer("C2", "Neha", "India", 33, 7, 5200, 5, 40));

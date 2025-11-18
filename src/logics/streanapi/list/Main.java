@@ -48,7 +48,7 @@ class Employee {
 
 // -------------------- Main Class --------------------
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         // --------- STATIC LIST OF 10 EMPLOYEES ---------
         List<Employee> employees = Arrays.asList(
