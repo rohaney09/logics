@@ -15,7 +15,6 @@ class Customer {
     private int loyaltyScore;
     private int numberOfTransactions;
 
-
     public Customer(String id, String name, String country, int age,
                     int yearsOfMembership, double balance,
                     int loyaltyScore, int numberOfTransactions) {

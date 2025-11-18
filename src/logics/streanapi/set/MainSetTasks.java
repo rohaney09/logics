@@ -44,7 +44,6 @@ class Student {
 public class MainSetTasks {
     public static void main(String[] args) {
 
-
         // -------- SAMPLE SET OF STUDENTS --------
         Set<Student> students = new HashSet<>(Arrays.asList(
                 new Student("Rohan", "CS", 20, 2, 3.8, 0, false),
