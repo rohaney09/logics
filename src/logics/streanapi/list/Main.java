@@ -65,6 +65,8 @@ public class Main {
                 new Employee(10, "Suman", "IT", "Manager", "FULL-TIME", 28, 5, 105000, 3, 1)
         );
 
+
+
         // ------------------- TASK 1 ---------------------------
         List<String> result = employees.stream()
                 .filter(e -> e.getJobTitle().equalsIgnoreCase("Manager"))
