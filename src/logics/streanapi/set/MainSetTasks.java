@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 // -------------------- Student Class --------------------
-class Student {
+public class Student {
     private String name;
     private String major;
     private int age;
